@@ -1,0 +1,210 @@
+.contact{
+    width: 70%;
+    margin: 5rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2rem;
+    align-items: flex-start;
+}
+
+.left{
+  
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+.right{
+  
+   display: flex;
+
+}
+
+
+label{
+    color: gray;
+}
+
+input{
+    padding-left: 1rem;
+    font-size: 0.9rem;
+    width: 30rem;
+    height: 3rem;
+    background: rgba(157, 121, 195, 0.3);
+    border: 1px solid rgba(157, 121, 195, 0.3);
+    border-radius: 0.2rem;
+}
+
+.heading{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.message{
+    height: 8rem;
+    width: 30rem;
+    background: rgba(157, 121, 195, 0.3);
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(157, 121, 195, 0.3);
+}
+
+form{
+    line-height: 2.5;
+}
+
+
+.left h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.left h2>img{
+    width: 2rem;
+}
+
+.left p{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    gap: 1rem;
+    
+   
+}
+
+.left p>img{
+    width: 1.5rem;
+}
+
+.submit{
+    border: 0px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    width: 12rem;
+    border-radius: 100px;
+    background-color: rgb(55, 55, 202);
+    gap: 0.5rem;
+    height: 10%;
+    
+
+}
+.submit img{
+    width: 1rem;
+
+}
+
+
+
+
+
+@media (max-width:1205px){
+
+    .contact{
+        display: flex;
+        margin: 5rem 16rem 0 14rem;
+        width: 80%;
+        gap: 2rem;
+
+        
+    }
+
+    .left{
+
+        width: 50%;
+    }
+
+    .right{
+        width: 40%;
+    }
+
+    
+    
+
+}
+
+@media (max-width:1105px){
+
+    .contact{
+        display: flex;
+        margin: 5rem 14rem 0 14rem;
+        width: 80%;
+        gap: 2rem;
+
+        
+    }
+
+    .left{
+
+        width: 40%;
+    }
+
+    .right{
+        width: 35%;
+    }
+
+
+    .message{
+        height: 5rem;
+        width: 27rem;
+        
+    }
+
+    input{
+       
+        width: 27rem;
+        height: 2.5rem;
+        
+    }
+    
+    form{
+        line-height: 2;
+    }
+
+    .submit{
+        
+        width: 9rem;
+        
+        height: 10%;
+        
+    
+    }
+
+    
+    
+
+}
+
+
+
+@media (max-width:797px){
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 30rem 0;
+        width: 100%;
+        gap: 2rem;
+
+        
+    }
+
+    .left{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .right{
+        width: 100%;
+    }
+
+    
+
+    
+
+}

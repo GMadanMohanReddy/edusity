@@ -1,0 +1,145 @@
+.Programs{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 5rem auto 0;
+    justify-content: center;
+    align-items: center;
+    
+    column-gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.Program{
+    position: relative;
+}
+
+
+.Program img{
+    
+    height: 320px;
+    width: 320px;
+    border-radius: 0.5rem;
+}
+
+.Program h3{
+    color: blueviolet;
+}
+
+.caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(rgba(8,0,58,0.3),rgba(8,0,58,0.3));
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 20rem;
+    transition: 400ms;
+}
+
+.caption:hover{
+    padding-top: 0;
+    opacity: 1;
+}
+
+.caption img{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 0.5rem;
+    
+
+}
+
+
+
+@media (max-width:1300px){
+
+    .Programs{
+        width: 70%;
+        row-gap: 2rem;
+        margin: 5rem auto 0 16rem;
+    }
+
+    .Program{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .Program img{
+    
+        height: 280px;
+        width: 280px;
+        border-radius: 0.5rem;
+        
+    }
+
+    .caption img{
+        width: 10%;
+        height: 10%;
+    }
+
+    
+
+    
+
+
+
+}
+
+@media (max-width:750px){
+
+    .Programs{
+        width: 100%;
+    }
+
+    .Program img{
+    
+        height: 400px;
+        width: 400px;
+        
+    }
+
+    .caption img{
+        width: 10%;
+        height: 10%;
+    }
+    
+
+}
+
+
+@media (max-width:650px){
+
+    .Programs{
+        margin: 5rem 30rem 0 ;
+        flex-direction: column;
+    }
+
+    .Program {
+    
+       flex-basis: 100%;
+       margin: 1rem;
+
+        
+    }
+
+    .Program img{
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .caption img{
+        width: 10%;
+        height: 10%;
+    }
+
+}

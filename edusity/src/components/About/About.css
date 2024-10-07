@@ -1,0 +1,171 @@
+
+
+.about{
+    width: 70%;
+    margin: 5rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem; 
+    
+    
+
+}
+
+.about_icon{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+
+.image{
+    
+    width: 400px;
+    height: 370px;
+    border-radius: 0.5rem;
+}
+.icon{
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 15%;
+    height: 15%;
+    
+
+}
+
+.about_description{
+    
+    margin-left: 2rem;
+    height: 360px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.about_description h2{
+    text-transform: uppercase;
+    color: rgb(44, 25, 168);
+    font-size: 1.1rem;
+}
+
+.about_description h1{
+    width: 70%;
+    line-height: 1.2;
+}
+
+.about_description p{
+    font-size: 0.99em;
+    color: rgb(118, 117, 117);
+    width: fit-content;
+    
+}
+
+
+@media (max-width:1300px){
+
+    .about_icon{
+        position: relative;
+        width: 50%;
+        height: 70%;
+    
+    }
+
+    .about_description h1{
+
+        font-size: 1.8rem;
+        width: 20ch;
+        margin-bottom: 1rem;
+       
+    }
+
+    
+
+}
+
+@media (max-width:1205px){
+
+    .about{
+        margin: 5rem 18rem 0 18rem;
+        display: flex;
+        row-gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .about_icon{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    
+    }
+
+    .about_description h1{
+
+        font-size: 1.8rem;
+        width: 20ch;
+        margin-bottom: 1rem;
+       
+    }
+
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+
+    
+
+}
+
+@media (max-width:950px){
+
+    .about{
+        margin: 5rem 24rem 0;
+    }
+}
+
+
+@media (max-width:650px){
+
+    
+    .about{
+
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .about_icon{
+        position: relative;
+        height: 400px;
+        width: 400px;
+
+        
+    
+    }
+
+    .about_description h1{
+
+        font-size: 2rem;
+        width: 20ch;
+        margin-bottom: 1rem;
+        
+       
+    }
+
+    .about_description p{
+        font-size: 1.8;
+        width: 30rem;
+    }
+
+    .image{
+        width: 400px;
+        height: 400px;
+    }
+    
+    
+
+}
